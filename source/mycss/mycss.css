@@ -1,11 +1,16 @@
 .my-flexbox {
-    margin: 30px auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content:space-around;
     flex-wrap: wrap;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    background-color: white;
+    border-radius: 10px;
 }
 .my-jumbotron {
     background: url("../img/Baliii\ Jumbotron\ 1.jpg");
@@ -20,8 +25,13 @@
 .vertical-center {
     margin: 0;
     position: absolute;
-    top: 40%;
+    top: 50%;
     -ms-transform: translateY(-60%);
     transform: translateY(-60%);
+}
+
+.carousel-item h1 {
+    padding-right: 300px;
+    padding-left: 300px;
 }
 

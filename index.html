@@ -20,17 +20,28 @@
     </nav>
 
     <div class="my-jumbotron col-md-12 col-lg-12">
-            <h1 class="vertical-center">VISIT OUR ISLAND</h1>
+      <div id="carouselExampleSlidesOnly" class="carousel slide vertical-center" data-ride="carousel">
+        <div class="carousel-inner"> 
+          <div class="carousel-item active">
+              <h1>Enjoy</h1>
+          </div>
+          <div class="carousel-item">
+            <h1>Visit</h1>
+          </div>
+          <div class="carousel-item">
+            <h1>Our Island</h1>
+          </div>
+        </div>
+      </div>
     </div>
-        <div class="container-fluid col-md-12 col-lg-12">
-            <div class="my-flexbox">
-                <div class="card mr-2 ml-2" ng-repeat = "x in data">
-                    <img src="{{x.photo}}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">{{x.title}}</h5>
-                        <p class="card-text">{{x.desc}}</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#detailModal-{{x.id}}">Launch demo modal</button>
-                    </div>
+    <div class="container-fluid col-md-12 col-lg-12">
+         <div class="my-flexbox">
+          <div class="card mr-4 ml-4" ng-repeat = "x in data" style="background-color: gray;">
+            <img src="{{x.photo}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{x.title}}</h5>
+                    <p class="card-text">{{x.desc}}</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#detailModal-{{x.id}}">Explore</button>
                 </div>
             </div>
         </div>

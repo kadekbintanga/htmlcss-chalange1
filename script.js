@@ -14,7 +14,7 @@ var data = [{
     id:1,
     title: 'Pandawa Beach',
     photo: './source/img/photo/Pandawa Beach.png',
-    desc: 'Pandawa Beach Bali is one of the renowned white sand beaches in southern Bali. Pandawa Beach is located in Kutuh Village, Badung Regency, and previously popular among foreign tourists, named Bali secret beach. At the same time, the local community is more familiar with the name Kutuh beach.',
+    desc: 'Pandawa Beach Bali is one of the renowned white sand beaches in southern Bali. Pandawa Beach is located in Kutuh Village, Badung Regency.',
     decsfull: 'Pandawa Beach Bali is one of the renowned white sand beaches in southern Bali. Pandawa Beach is located in Kutuh Village, Badung Regency, and previously popular among foreign tourists, named Bali secret beach. At the same time, the local community is more familiar with the name Kutuh beach. The address is on Jalan Pandawa Beach, Kutuh Village, South Kuta District, Badung Regency, Bali Province 80361. To enter the beach area in Kutuh village Bali, you must pass a road flanked by steep rocky cliffs. On this cliff, there is a statue of Panca Pandawa taken from the Mahabharata story. Therefore the beach is called the Pandawa Beach Bali.'
 },{
     id:2,
@@ -33,6 +33,6 @@ var data = [{
     id:4,
     title: 'GWK (Garuda Wisnu Kencana)',
     photo: './source/img/photo/Gwk.jpg',
-    desc:'Garuda Wisnu Kencana Cultural Park (Indonesian: Taman Budaya Garuda Wisnu Kencana), or GWK, is a tourist destination and attraction located at Ungasan, Badung on the island of Bali, Indonesia about 10–15 minutes drive from Ngurah Rai International Airport.',
+    desc:'Garuda Wisnu Kencana Cultural Park, or GWK, is a tourist destination and attraction located at Ungasan, Badung on the island of Bali',
     decsfull: 'Garuda Wisnu Kencana Cultural Park (Indonesian: Taman Budaya Garuda Wisnu Kencana), or GWK, is a tourist destination and attraction located at Ungasan, Badung on the island of Bali, Indonesia about 10–15 minutes drive from Ngurah Rai International Airport. It is devoted to the Hindu god Vishnu, and his mount, Garuda, the mythical bird who became his companion. Owned and managed by Alam Sutera Realty, Tbk, the construction of the 120.9-metre statue of Vishnu riding his mount Garuda was completed in August 2018.[citation needed] The park has a land area of about 60 hectares and is 263 metres above sea level.'
 }];
