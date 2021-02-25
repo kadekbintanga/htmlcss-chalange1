@@ -61,11 +61,16 @@
           </button>
         </div>
         <div class="modal-body">
-          <p>{{x.decsfull}}</p>
+          <div class="row">
+            <img src="{{x.photo}}" style="width: 100%;" alt="">
+          </div>
+          <div class="row col-md-12">
+            <p>{{x.decsfull}}</p>
+            <a href="{{x.loc}}" target="_blank">Get the location</a>
+          </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
         </div>
       </div>
     </div>
